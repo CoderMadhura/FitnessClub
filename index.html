@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Fitness Club</title>
+</head>
+
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Stay Fit</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900">Home</a>
+            <a class="mr-5 hover:text-gray-900">Login</a>
+            <a class="mr-5 hover:text-gray-900">Services</a>
+            <a class="mr-5 hover:text-gray-900">Packages</a>
+            <a class="mr-5 hover:text-gray-900">Contact Info</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Enroll now
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <hr>
+        </div><section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero" src=https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3ltfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60>
+              </div>
+              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Energize Your Daily Routine
+                  <br class="hidden lg:inline-block">Turn Fat into FIT!
+                </h1>
+                <p class="mb-8 leading-relaxed">Having stressful schedule?<br> freeup your mind with dose of exercise and balanced diet by getting proper guidance from our expert trainers ,we keep a daily track of your performance for enhancing  your experience</p>
+                <div class="flex justify-center">
+                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                  <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Login</button>
+                </div>
+              </div>
+            </div> 
+            <hr>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+                <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                  <h1 class="title-font font-medium text-3xl text-gray-900">Make yourself stronger than your excuses</h1>
+                  <p class="leading-relaxed mt-4">Get in touch to schedule your free trial !</p>
+                </div>
+                <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                  <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Sign Up</h2>
+                  <div class="relative mb-4">
+                    <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  
+                  <div class="relative mb-4">
+                    <label for="Password" class="leading-7 text-sm text-gray-600">Create password</label>
+                    <input type="password" id="password" name="password" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  <div class="relative mb-4">
+                    <label for="Password" class="leading-7 text-sm text-gray-600">Confirm password</label>
+                    <input type="password" id="password" name="password" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">continue</button>
+                  <p class="text-xs text-gray-500 mt-3">Already have and account? <h6 style ="color:blue; ">Sign in</h6>
+                </div>
+              </div>
+              <hr>
+              <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-wrap w-full mb-20">
+                    <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Services</h1>
+                      <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                    </div>
+                    <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Our state-of the art facility has everything you need to reach your fitness goals,<br>including top-of-the line equipment,personal training service and a number of batches for all age gruops</p>
+                  </div>
+                  <div class="flex flex-wrap -m-4">
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                      <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://t4.ftcdn.net/jpg/03/33/91/97/240_F_333919715_R1mDUWPgwB2CRvSCNnvnmtn64gPY40ZL.jpg" alt="photo">
+                        
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> Personal Trainer</h2>
+                        <p class="leading-relaxed text-base">Helps to learn about your Health ,Diet and what Exercise will be most effective for you</p>
+                      </div>
+                    </div>
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                      <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn2xcoP6reKjVzwby-rG2s4uZ4F4KcwgZnoQ&usqp=CAU" alt="image">
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Cardio Zones</h2>
+                        <p class="leading-relaxed text-base">Helps to monitor training intensity during exercise</p>
+                      </div>
+                    </div>
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                      <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvhLH74IZIdzrwj6YNkw06qDaBn_87FxtJzLNudr74-Za5DKQaOQVCsDOFecCOsBMl1DA&usqp=CAU" alt="photo">
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Group Classes</h2>
+                        <p class="leading-relaxed text-base">Best way to motivate yourself to push through that extra rep with other team mets</p>
+                      </div>
+                    </div>
+                    <div class="xl:w-1/4 md:w-1/2 p-4">
+                      <div class="bg-gray-100 p-6 rounded-lg">
+                        <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLYxsEY_OztZ69K79g6E57HVwVtdIZP2I_w&usqp=CAU" alt="photo">
+                        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Weight Room</h2>
+                        <p class="leading-relaxed text-base">Wide range of equipments to improve your muscle performance</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </section>
+          <hr>
+          <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Packages</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Looking to get fit and feel great?<br>Join our gym center today !</p>
+                <div class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+                  <button class="py-1 px-4 bg-indigo-500 text-white focus:outline-none">Monthly</button>
+                  <button class="py-1 px-4 focus:outline-none">Annually</button>
+                </div>
+              </div>
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                    <h2 class="text-sm tracking-widest title-font mb-1 font-medium">1 Month</h2>
+                    <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Rs.1500  </h1>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Weight Training
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Yoga & Pilates
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Trainer guidance
+                    </p>
+                    <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Pay Now
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                    
+                  </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+                    <span class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">Premium</span>
+                    <h2 class="text-sm tracking-widest title-font mb-1 font-medium">3 Months</h2>
+                    <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Rs.2999 </h1>
+                    <h1 class="text-2xl text-gray-00 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">Membership Includes:</h1>
+                      
+                    </h1>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Personal Training Assessment
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Weight Training
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Yoga & Pilates
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Drinks & Supplements
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Strength and Cardio machines
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Group Fitness classes
+                    </p>
+                    <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Pay Now
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                    <h2 class="text-sm tracking-widest title-font mb-1 font-medium">6 Months</h2>
+                    <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                      <span>Rs.5999</span>
+                      
+                    </h1>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>24-hour access
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Strength & Cardio Machines
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>personal Training Assessment
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Locker & Shower Faciities
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Group Fitness Classes
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Hydro Massage Beds
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Discounts on Drinks & Supplements
+                    </p>
+                    <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Pay Now 
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                   
+                  </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+                    <h2 class="text-sm tracking-widest title-font mb-1 font-medium">12 Months</h2>
+                    <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                      <span>Rs.10,999</span>
+                      
+                    </h1>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>24-hour access
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>strenght & Cardio Machines
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Free Personal Training Assessment
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-2">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Locker & Shower Facilities
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Group Fitness Classes
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Hydro Massage Beds
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Discounts on Drinks & Supplements
+                    </p>
+                    <p class="flex items-center text-gray-600 mb-6">
+                      <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                          <path d="M20 6L9 17l-5-5"></path>
+                        </svg>
+                      </span>Two Free Guest Passes Per Month 
+                    </p>
+                    <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">Pay Now
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="text-gray-600 body-font relative">
+            <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+              <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe  width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaaPSkHGqgmUSUfFqUUSMdhVpicjmX9cx5sw&usqp=CAU"style="filter: grayscale(100) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                  <div class="lg:w-1/2 px-6">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                    <p class="mt-1">Fitness Club ,block no.5,sai chowk,pimpri pune-18</p>
+                  </div>
+                  <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                    <a class="text-indigo-500 leading-relaxed">fitnesshub@email.com</a>
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                    <p class="leading-relaxed">123-456-789</p>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                <p class="leading-relaxed mb-5 text-gray-600"></p>
+                <div class="relative mb-4">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                
+              </div>
+            </div>
+          </section>
+      </header>
+    
+</body>
+</html>
